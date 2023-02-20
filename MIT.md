@@ -79,7 +79,10 @@ npm install
 ### Usage
 
 To run the project, execute the following command:
-**Click on the live server button on your IDE**
+
+```
+npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
