@@ -82,8 +82,7 @@ To run the project, execute the following command:
 
 ```
 npm start
-```
-
+````
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- PREVIEW -->
