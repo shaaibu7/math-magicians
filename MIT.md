@@ -1,141 +1,21 @@
-# Math magicians with React
+MIT License
 
-<a name="readme-top"></a>
+Copyright (c) 2023 Shaaibu  Suleiman 
 
-<div align="center">
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  <h3><b>Math magicians with React</b></h3>
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-</div>
-
-# 📗Table of Contents
-
-- [📖 About the Project](#about-project)
-- [🛠 Built With](#built-with)
-- [Tech Stack](#tech-stack)
-- [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [Preview](#preview)
-- [👥 Authors](#authors)
-- [🔮 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 Math magicians with react <a name="about-project"></a>
-
-This project is about building a simple calculator application with react.
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>React</li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **Performs mathmatical calculations and gives mathematical quotes.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-### Prerequisites
-
-In order to run this project you need:
-
-A Browser
-
-### Setup
-
-Clone this repository to your desired folder:
-
-[`shaaibu7/math-magicians`](https://github.com/shaaibu7/math-magicians)
-
-### Install
-
-Install this project with:
-A commandline interface e.g Gitbash
-
-```
-npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```
-npm start
-````
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- PREVIEW -->
-
-### Preview
-
-Coming soon...
-
-<!-- <img src="" alt="logo" width="140"  height="auto" /> -->
-<br/>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Shaaibu Suleiman**
-- GitHub: [@githubhandle](https://github.com/shaaibu7)
-- Twitter: [@twitterhandle](https://twitter.com/SuleimanShaaibu?t=EAqVJrP59poEb2W46kK9vg&s=09)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaaibu-suleiman-119271206)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-### 🔮 Future Features <a name="future-features"></a>
-
-- More better UI.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-🙏 Acknowledgments
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](/MIT.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
