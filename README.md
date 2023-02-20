@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List with Webpack <a name="about-project"></a>
+# 📖 Math magicians with react <a name="about-project"></a>
 
 This project is about building a simple calculator application with react.
 
