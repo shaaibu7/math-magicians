@@ -12,11 +12,10 @@ body {
 }
 
 .input {
-  background-color: grey;
   width: 30rem;
   display: flex;
   justify-content: right;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .keys {
@@ -47,4 +46,9 @@ body {
   padding-right: 10px;
   font-size: larger;
   font-weight: 700;
+  text-align: end;
+}
+
+input[type=text] {
+  background-color: grey;
 }
