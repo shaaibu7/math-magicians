@@ -1,44 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <div className="calculator">
-    <div className="input">
-      <p className="data">0</p>
-    </div>
+const Calculator = () => {
+  const [result, setResult] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-    <div className="keys">
-      <button type="button" className="key">AC</button>
-      <button type="button" className="key">+/-</button>
-      <button type="button" className="key">%</button>
-      <button type="button" className="calculate">&divide;</button>
-    </div>
+  const handleClick = (btnName) => {
+    setResult(calculate(result, btnName));
+  };
+  return (
+    <div className="calculator">
+      <div className="input">
+        <input className="input data" type="text" value={result.next || result.total || '0'} />
+      </div>
 
-    <div className="keys">
-      <button type="button" className="key">7</button>
-      <button type="button" className="key">8</button>
-      <button type="button" className="key">9</button>
-      <button type="button" className="calculate">%</button>
-    </div>
+      <div className="keys">
+        <button type="button" className="key" onClick={() => handleClick('AC')}>AC</button>
+        <button type="button" className="key" onClick={() => handleClick('+/-')}>+/-</button>
+        <button type="button" className="key" onClick={() => handleClick('%')}>%</button>
+        <button type="button" className="calculate" onClick={() => handleClick('÷')}>&divide;</button>
+      </div>
 
-    <div className="keys">
-      <button type="button" className="key">4</button>
-      <button type="button" className="key">5</button>
-      <button type="button" className="key">6</button>
-      <button type="button" className="calculate">-</button>
-    </div>
+      <div className="keys">
+        <button type="button" className="key" onClick={() => handleClick('7')}>7</button>
+        <button type="button" className="key" onClick={() => handleClick('8')}>8</button>
+        <button type="button" className="key" onClick={() => handleClick('9')}>9</button>
+        <button type="button" className="calculate" onClick={() => handleClick('x')}>x</button>
+      </div>
 
-    <div className="keys">
-      <button type="button" className="key">1</button>
-      <button type="button" className="key">2</button>
-      <button type="button" className="key">3</button>
-      <button type="button" className="calculate">+</button>
-    </div>
+      <div className="keys">
+        <button type="button" className="key" onClick={() => handleClick('4')}>4</button>
+        <button type="button" className="key" onClick={() => handleClick('5')}>5</button>
+        <button type="button" className="key" onClick={() => handleClick('6')}>6</button>
+        <button type="button" className="calculate" onClick={() => handleClick('-')}>-</button>
+      </div>
 
-    <div className="keys">
-      <button type="button" className="key zero">0</button>
-      <button type="button" className="key">.</button>
-      <button type="button" className="calculate">=</button>
+      <div className="keys">
+        <button type="button" className="key" onClick={() => handleClick('1')}>1</button>
+        <button type="button" className="key" onClick={() => handleClick('2')}>2</button>
+        <button type="button" className="key" onClick={() => handleClick('3')}>3</button>
+        <button type="button" className="calculate" onClick={() => handleClick('+')}>+</button>
+      </div>
+
+      <div className="keys">
+        <button type="button" className="key zero" onClick={() => handleClick('0')}>0</button>
+        <button type="button" className="key" onClick={() => handleClick('.')}>.</button>
+        <button type="button" className="calculate" onClick={() => handleClick('=')}>=</button>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 export default Calculator;
