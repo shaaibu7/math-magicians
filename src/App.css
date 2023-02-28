@@ -52,3 +52,13 @@ body {
 input[type=text] {
   background-color: grey;
 }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.head {
+  margin-left: -1rem;
+}

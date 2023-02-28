@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../styles/Home.module.css';
 
-const Home = () => {
-  <div>
+const Home = () => (
+  <div className={styles.container}>
     <h2>Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed
@@ -15,7 +16,7 @@ const Home = () => {
       volutpat. Suspendisse vitae finibus odio. Suspendisse aliquam risus massa,
       vel vulputate mauris tempus a.
     </p>
-  </div>;
-};
+  </div>
+);
 
 export default Home;
