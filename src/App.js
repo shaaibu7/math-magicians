@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>

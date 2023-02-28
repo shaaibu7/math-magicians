@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  color: orange;
+}
+
 .navbar {
   display: flex;
   column-gap: 0.5rem;
