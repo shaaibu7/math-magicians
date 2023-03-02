@@ -1,0 +1,10 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}

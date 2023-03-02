@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: orange;
+}
+
+.navbar {
+  display: flex;
+  column-gap: 0.5rem;
+  padding-top: 2rem;
+}
