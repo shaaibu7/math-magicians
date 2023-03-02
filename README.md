@@ -90,7 +90,7 @@ npm start
 
 ### Preview
 
-Coming soon...
+[`Live Demo`](https://math-magicians-lgf6.onrender.com/quote)
 
 <!-- <img src="" alt="logo" width="140"  height="auto" /> -->
 <br/>
